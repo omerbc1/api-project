@@ -1,8 +1,7 @@
 name: CI for Python Application
 
 on:
-  push:        # This will trigger the workflow on any push to any branch
-  pull_request: # This will trigger the workflow on any pull request to any branch
+  push:        # Triggers on any push to any branch
 
 jobs:
   build:
